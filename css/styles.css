@@ -13,7 +13,7 @@
   --accent-social-link-color: #ffffff;
 
   --items-number: 3;
-  --indent: 28px;
+  --indent: 30px;
 }
 
 h1,
@@ -592,15 +592,15 @@ body {
   padding-left: 0px;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: (100% - (var(--indent) * (var(--items-number) - 1) / var(--items-number)));
-  gap: var(--indent);
+  /* flex-basis: (100% - (var(--indent) * (var(--items-number) - 1) / var(--items-number)));
+  gap: var(--indent); */
 }
 
 .card-project {
   background-color: #ffffff;
 }
 
-/* .card-project:nth-child(-n + 6) {
+.card-project:nth-child(-n + 6) {
   margin-bottom: 30px;
 }
 
@@ -609,7 +609,7 @@ body {
 .card-project:nth-child(8) {
   margin-left: 30px;
   margin-right: 30px;
-} */
+}
 
 .card-container {
   padding: 20px 24px 20px 24px;
